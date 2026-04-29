@@ -1,0 +1,9 @@
+{
+  "name": "cydef-gr-api",
+  "version": "1.0.0",
+  "description": "CyDef-GR Azure OpenAI Proxy Function",
+  "main": "index.js",
+  "scripts": {
+    "start": "func start"
+  }
+}
