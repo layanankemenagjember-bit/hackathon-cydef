@@ -1006,7 +1006,7 @@ async function callAzureOpenAI(userMsg) {
     temperature: 0.7
   };
 
-  const resp = await fetch('/api/chat', {
+  const resp = await fetch('https://hackathon-cydef-production.up.railway.app/chat', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload)
@@ -1060,7 +1060,7 @@ Output JSON yang dibutuhkan:
 }`;
 
   try {
-    const resp = await fetch('/api/chat', {
+    const resp = await fetch('https://hackathon-cydef-production.up.railway.app/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
